@@ -1,0 +1,18 @@
+"use strict";
+exports.__esModule = true;
+var carnivoro_1 = require("./carnivoro");
+var mamiferos_1 = require("./mamiferos");
+var herbivoro_1 = require("./herbivoro");
+var Mamifero1 = new mamiferos_1.Mamifero("Ballena", "Cetaceo", "Muy grande");
+Mamifero1.setAlimentacion();
+console.log(Mamifero1);
+console.log("·····························································································");
+var carnivoro1 = new carnivoro_1.Carnivoro("Leon", "Felino", "Grande");
+carnivoro1.setAlimentacion();
+console.log(carnivoro1);
+console.log("El animal " + carnivoro1.getNombre() + " tiene una alimentacion a base de " + carnivoro1.getAlimentacion());
+console.log("·····························································································");
+var herbivoro1 = new herbivoro_1.Herbivoro("Koala", "Marsupial", "Pequeño");
+herbivoro1.setAlimentacion();
+console.log(herbivoro1);
+console.log("El animal " + herbivoro1.getNombre() + " tiene una alimentacion a base " + herbivoro1.getAlimentacion());
