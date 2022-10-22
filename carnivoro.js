@@ -25,9 +25,6 @@ var Carnivoro = /** @class */ (function (_super) {
     Carnivoro.prototype.setAlimentacion = function () {
         this.alimentacion = "Carnes";
     };
-    Carnivoro.prototype.getAlimentacion = function () {
-        return this.alimentacion;
-    };
     return Carnivoro;
 }(mamiferos_1.Mamifero));
 exports.Carnivoro = Carnivoro;

@@ -11,8 +11,4 @@ export class Omnivoro extends Mamifero {
     public setAlimentacion(): void {
         this.alimentacion = "Carnes y vegetales";
     }
-
-    public getAlimentacion() {
-        return this.alimentacion;
-    }
 }

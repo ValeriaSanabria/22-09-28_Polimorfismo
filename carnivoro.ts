@@ -11,8 +11,4 @@ export class Carnivoro extends Mamifero {
     public setAlimentacion(): void {
         this.alimentacion = "Carnes";
     }
-
-    public getAlimentacion() {
-        return this.alimentacion;
-    }
 }
