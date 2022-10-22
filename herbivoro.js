@@ -25,9 +25,6 @@ var Herbivoro = /** @class */ (function (_super) {
     Herbivoro.prototype.setAlimentacion = function () {
         this.alimentacion = "vegetal";
     };
-    Herbivoro.prototype.getAlimentacion = function () {
-        return this.alimentacion;
-    };
     return Herbivoro;
 }(mamiferos_1.Mamifero));
 exports.Herbivoro = Herbivoro;

@@ -25,9 +25,6 @@ var Omnivoro = /** @class */ (function (_super) {
     Omnivoro.prototype.setAlimentacion = function () {
         this.alimentacion = "Carnes y vegetales";
     };
-    Omnivoro.prototype.getAlimentacion = function () {
-        return this.alimentacion;
-    };
     return Omnivoro;
 }(mamiferos_1.Mamifero));
 exports.Omnivoro = Omnivoro;
